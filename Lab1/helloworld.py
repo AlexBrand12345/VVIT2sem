@@ -1,5 +1,6 @@
 print("Hello, world")
 
+average = 4.1
 groupmates = [
     {
         "name": "Александр",
@@ -37,4 +38,4 @@ def print_students(students, marks_limit):
               str(student["exams"]).ljust(30), 
               str(student["marks"]).ljust(20))
         
-print_students(groupmates, 4.1)
+print_students(groupmates, average)
